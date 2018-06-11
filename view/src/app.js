@@ -1,5 +1,5 @@
 import React from 'react'
-import {Route, Redirect, Switch} from 'react-router'
+import {Route} from 'react-router'
 import {ConnectedRouter, routerReducer, routerMiddleware} from 'react-router-redux'
 import createHistory from 'history/createBrowserHistory'
 import {createStore, combineReducers, applyMiddleware} from 'redux'
@@ -20,7 +20,7 @@ const store = createStore(
 const App = () => <Provider store={store}>
   <ConnectedRouter history={history}>
     <div>
-        <Route path='*' component={Container} />
+      <Route path='*' component={Container} />
     </div>
   </ConnectedRouter>
 </Provider>
