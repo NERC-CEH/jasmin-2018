@@ -6,8 +6,6 @@ Use this to learn how to construct a CEH View Application.
 ## Usage
 
 ```sh
-git clone <>
-cd view-api
 npm install
 npm run dev
 ```
