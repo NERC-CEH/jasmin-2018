@@ -21,4 +21,4 @@ Both `view` and `view-api` has it's own `README.md` on how to start it if you do
 
 ## Exercises
 
-There are also some exercises 
+There are also some [Exercises](/exercises)
