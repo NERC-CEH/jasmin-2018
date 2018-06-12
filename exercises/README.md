@@ -6,5 +6,3 @@ You do not need to do the exercises in order but they are progressively harder
 1. [Date "Done" and "Outstanding"](/exercises/exercise-1.md)
 2. [Deletable TODOs](/exercises/exercise-2.md)
 3. [Update User](/exercises/exercise-3.md)
-
-
