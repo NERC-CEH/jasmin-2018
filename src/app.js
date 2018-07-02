@@ -21,7 +21,7 @@ const App = () => <Provider store={store}>
   <ConnectedRouter history={history}>
     <div>
       <Switch>
-        <Route exact path='/' render={() => <Redirect to='/jasmin-2018' />} />
+        <Route exact path='/' render={() => <Redirect to='/jasmin-2018/' />} />
         <Route path='*' component={Container} />
       </Switch>
     </div>
