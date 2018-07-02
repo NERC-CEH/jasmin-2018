@@ -29,7 +29,7 @@ export default (state, action) => {
   let route = state.route || 'home'
   route = route.replace('in-route-', '')
   if (action.type === '@@router/LOCATION_CHANGE') {
-    const pathname = action.payload.pathname
+    const pathname = action.payload.pathname.replace('/jasmin-2018', '')
     if (pathname !== '/') route = pathname.replace(/\//g, '').replace('-', '')
     else route = 'home'
   }
