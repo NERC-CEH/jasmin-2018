@@ -21,10 +21,6 @@ export default {
                 label: '1.30PM',
                 onClick: 'goto-d1-130'
             }, {
-                key: 'hero-1-3',
-                label: '2.45PM',
-                onClick: 'goto-d1-245'
-            }, {
                 key: 'hero-1-4',
                 label: '3.15PM',
                 onClick: 'goto-d1-315'

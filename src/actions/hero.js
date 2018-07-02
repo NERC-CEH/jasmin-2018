@@ -11,9 +11,6 @@ export default (dispatch, {history}) => ({
   'goto-d1-130': () => {
     if (history.location.pathname !== '/d1-130') history.push('/d1-130')
   },
-  'goto-d1-245': () => {
-    if (history.location.pathname !== '/d1-245') history.push('/d1-245')
-  },
   'goto-d1-315': () => {
     if (history.location.pathname !== '/d1-315') history.push('/d1-315')
   },

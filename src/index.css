@@ -6,37 +6,42 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.nav {
-    display: flex;
-    width: 100%;
-    margin-top: -56px;
+.in-route-home {
+    transform: translateX(0);
 }
 
-.nav-button {
-    flex-grow: 1;
+.in-route-d110 {
+    transform: translateX(-100%);
 }
 
-.checkbox.todo-item {
-    display: block;
-    margin-bottom: 8px;
+.in-route-d111 {
+    transform: translateX(-200%);
 }
 
-.add {
-    margin-left: 8px;
-    margin-top: -32px;
+.in-route-d1130 {
+    transform: translateX(-300%);
 }
 
-.sections.done,
-.sections.todo,
-.sections.outstanding {
-    overflow: hidden;
+.in-route-d1315 {
+    transform: translateX(-400%);
 }
 
-.todo .sections-container {
-    min-height: 500px;
+.in-route-d1445 {
+    transform: translateX(-500%);
 }
 
-.in-route-todo,
-.in-route-outstanding {
-    transform: translateX(-25%);
+.in-route-d210 {
+    transform: translateX(-600%);
+}
+
+.in-route-d21030 {
+    transform: translateX(-700%);
+}
+
+.in-route-d21130 {
+    transform: translateX(-800%);
+}
+
+.in-route-d212 {
+    transform: translateX(-900%);
 }

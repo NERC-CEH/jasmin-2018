@@ -3,7 +3,6 @@ import home from './home'
 import d110 from './d1-10'
 import d111 from './d1-11'
 import d1130 from './d1-130'
-import d1245 from './d1-245'
 import d1315 from './d1-315'
 import d1445 from './d1-445'
 import d210 from './d2-10'
@@ -11,12 +10,11 @@ import d21030 from './d2-1030'
 import d21130 from './d2-1130'
 import d212 from './d2-12'
 
-const data = {
+const pages = {
   home,
   d110,
   d111,
   d1130,
-  d1245,
   d1315,
   d1445,
   d210,
@@ -37,9 +35,7 @@ export default (state, action) => {
   }
   state.route = `in-route-${route}`
 
-  console.log(route)
-  console.log(data[route])
-
+  state.pages = pages
 
   return state
 }
