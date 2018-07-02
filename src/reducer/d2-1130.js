@@ -1,5 +1,6 @@
 export default {
     size: '12',
+    className: 'd21130',
     sections: [{
         key: 'd110',
         elements: [{

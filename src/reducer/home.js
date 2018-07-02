@@ -1,5 +1,6 @@
 export default {
     size: '12',
+    className: 'home',
     sections: [{
         key: 'home',
         elements: [{
