@@ -19,14 +19,21 @@ export default {
                     key: 'contact',
                     type: 'contact',
                     props: {
-                        name: 'James Downing',
-                        organisation: 'Tessella'
+                        name: 'Joshua Foster',
+                        organisation: 'Tessella',
+                        link: {
+                            href: 'https://github.com/joshua-foster-tessella',
+                            label: 'GitHub'
+                        }
                     }
                 }, {
                     key: 'synopsis',
-                    type: 'paragraph',
+                    type: 'markdown',
                     props: {
-                        contents: 'Something'
+                        source: `A good presentation with a video.
+Clearly very few people had used DataLabs and it seemed even less understood what you would do with it.
+The problem (imo) is that JASMIN is a CLI and sold as such.
+Here is the link [Presentation]()`
                     }
                 }]
             }
@@ -44,9 +51,12 @@ export default {
                     }
                 }, {
                     key: 'synopsis',
-                    type: 'paragraph',
+                    type: 'markdown',
                     props: {
-                        contents: 'Something'
+                        source: `Quite a fun presentation about storage.
+The interesting parts about history and where the data is heading.
+There is also a good table (Slide 11) about the evolution of the data.
+Here is the link [Presentation](https://drive.google.com/file/d/1wD184zrtiA2wvoI-X0FL5WwXbQvrVaUF/view)`
                     }
                 }]
             }
@@ -60,13 +70,20 @@ export default {
                     type: 'contact',
                     props: {
                         name: 'Teri Forey',
-                        organisation: 'University of Leicester'
+                        organisation: 'University of Leicester',
+                        link: {
+                            href: 'https://www2.le.ac.uk/offices/itservices/images/staff/TeriForey.jpg/view',
+                            label: 'Home Page'
+                        }
                     }
                 }, {
                     key: 'synopsis',
-                    type: 'paragraph',
+                    type: 'markdown',
                     props: {
-                        contents: 'Something'
+                        source: `She ran a demo which worked.
+It was a form, which would submit a job, then you could follow it's progress.
+All run on JASMIN.
+Here is the link [Presentation](https://drive.google.com/file/d/196Qy76EY6Gl_cz39-woXrfEKcH52hfYF/view)`
                     }
                 }]
             }
@@ -84,9 +101,10 @@ export default {
                     }
                 }, {
                     key: 'synopsis',
-                    type: 'paragraph',
+                    type: 'markdown',
                     props: {
-                        contents: 'Something'
+                        source: `More graphs for scientists.
+Here is the link [Presentation](https://drive.google.com/file/d/1zdthA13Jqo7wKl2GcwjPNMesTyPnFha6/view)`
                     }
                 }]
             }
@@ -104,9 +122,10 @@ export default {
                     }
                 }, {
                     key: 'synopsis',
-                    type: 'paragraph',
+                    type: 'markdown',
                     props: {
-                        contents: 'Something'
+                        source: `The MetOffice combining their data and JASMIN data.
+Here is the link [Presentation](https://drive.google.com/file/d/1lkNNTnbiqjIFI-0cIec3M5V8OO1XFA0n/view)`
                     }
                 }]
             }

@@ -20,13 +20,18 @@ export default {
                     type: 'contact',
                     props: {
                         name: 'Emma Dodd',
-                        organisation: 'University of Leicester'
+                        organisation: 'University of Leicester',
+                        link: {
+                            href: 'https://www2.le.ac.uk/departments/physics/people/emmadodd/emmadodd',
+                            label: 'Home Page'
+                        }
                     }
                 }, {
                     key: 'synopsis',
-                    type: 'paragraph',
+                    type: 'markdown',
                     props: {
-                        contents: 'Something'
+                        source: `Again loads of data anaylsis for scientists.
+Here is the link [Presentation](https://drive.google.com/file/d/1ByXNhEmyg5acvgFLdl5sjnEJfwMTt5a3/view)`
                     }
                 }]
             }
@@ -40,13 +45,20 @@ export default {
                     type: 'contact',
                     props: {
                         name: 'Nicholas Greenall',
-                        organisation: 'University of Leeds'
+                        organisation: 'University of Leeds',
+                        link: {
+                            href: 'http://www.see.leeds.ac.uk/people/n.greenall',
+                            label: 'Home Page'
+                        }
                     }
                 }, {
                     key: 'synopsis',
-                    type: 'paragraph',
+                    type: 'markdown',
                     props: {
-                        contents: 'Something'
+                        source: `Slide 10 he outlines how he is using JASMIN
+He mentioned that the database he is using is a mongo database.
+The website is a list of hyperlinks to canned data.
+Here is the link [Presentation](https://drive.google.com/file/d/1jIDgbbRLOlua4jeLJAwthAmSpbwhoswq/view)`
                     }
                 }]
             }
@@ -60,13 +72,20 @@ export default {
                     type: 'contact',
                     props: {
                         name: 'Daniel Clewley',
-                        organisation: 'Plymouth Marine Laboratory'
+                        organisation: 'Plymouth Marine Laboratory',
+                        link: {
+                            href: 'http://www.pml.ac.uk/People/Science_Staff/Dr_Daniel_Clewley',
+                            label: 'Home Page'
+                        }
                     }
                 }, {
                     key: 'synopsis',
-                    type: 'paragraph',
+                    type: 'markdown',
                     props: {
-                        contents: 'Something'
+                        source: `Broken down into two parts, the science then he talks about how he uses JASMIN
+He also mentions how people don't use JASMIN and why
+Talks about deploying using ARC CE
+Here is the link [Presentation](https://drive.google.com/file/d/1gIfZZdPenqeafASan241MgfNGBQVzb0g/view)`
                     }
                 }]
             }

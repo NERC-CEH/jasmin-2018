@@ -25,7 +25,7 @@ This year's event aims to provide:
 
 ---
 
-You can find the event [here](http://www.jasmin.ac.uk/jasmin2018/)
+You can find the event [here](http://www.jasmin.ac.uk/jasmin2018/) along with all the presentations
 `
             }
         }]

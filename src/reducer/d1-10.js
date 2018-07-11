@@ -20,13 +20,21 @@ export default {
                     type: 'contact',
                     props: {
                         name: 'Bryan Lawrence',
-                        organisation: 'University of Reading'
+                        organisation: 'University of Reading',
+                        link: {
+                            href: 'http://www.met.reading.ac.uk/userpages/bnl.php',
+                            label: 'Home Page'
+                        }
                     }
                 }, {
                     key: 'synopsis',
-                    type: 'paragraph',
+                    type: 'markdown',
                     props: {
-                        contents: 'Something'
+                        source: `This topic was about storage, how we are consuming with lots of stats and graphs.
+Key take away, there will be an Object Store like S3 bucket and we should be using tape to store data.
+Quobyte looked interesting and they seem to be moving from Panasas to it.
+Phase 5 could have more services for parrallel computing such as SLURM, DASK and SPARK.
+Here is the link [Presentation](https://drive.google.com/file/d/1k2ERBw_-ioQzYQmRsMQCiHuHrI0uhukG/view)`
                     }
                 }]
             }
@@ -40,13 +48,19 @@ export default {
                     type: 'contact',
                     props: {
                         name: 'Jonathan Churchill',
-                        organisation: 'STFC Scientific Computing Department'
+                        organisation: 'STFC Scientific Computing Department',
+                        link: {
+                            href: 'https://www.scd.stfc.ac.uk/Pages/Jonathan-Churchill.aspx',
+                            label: 'Home Page'
+                        }
                     }
                 }, {
                     key: 'synopsis',
-                    type: 'paragraph',
+                    type: 'markdown',
                     props: {
-                        contents: 'Something'
+                        source: `Went into more depth about Quobyte and Caringo.
+Also gave lots of good information about storage capacity.
+Here is the link [Presentation](https://drive.google.com/file/d/1lmVJYcbicD0ZmettyqQm8CmePfKCncDb/view)`
                     }
                 }]
             }
@@ -64,9 +78,12 @@ export default {
                     }
                 }, {
                     key: 'synopsis',
-                    type: 'paragraph',
+                    type: 'markdown',
                     props: {
-                        contents: 'Something'
+                        source: `More about storage.
+More space for home and scratch.
+Some graphs about storage size.
+Here is the link [Presentation](https://drive.google.com/file/d/1XHy0QzIC-iePeVj1ZWWvDRvpJ9VP0jdP/view)`
                     }
                 }]
             }
@@ -84,9 +101,12 @@ export default {
                     }
                 }, {
                     key: 'synopsis',
-                    type: 'paragraph',
+                    type: 'markdown',
                     props: {
-                        contents: 'Something'
+                        source: `Yet even more about storage.
+He also spoke about the cloud, check out slides 8-10 for some good diagrams.
+The workshop made more sense of this.
+Here is the link [Presentation](https://drive.google.com/file/d/1GT8ulTInoC0HW17ii97CH6EVBD0mQGGh/view)`
                     }
                 }]
             }
