@@ -3,20 +3,36 @@ export default {
     className: 'd21130',
     sections: [{
         key: 'd110',
-        elements: [{
-            key: 'title',
-            type: 'head',
-            props: {
-                large: true,
-                label: 'Storage Systems'
+        elements: [
+            {
+              key: 'title',
+              type: 'head',
+              props: {large: true, label: 'Storage system'}
+            },
+            {
+              key: 'contact',
+              type: 'contact',
+              props: {
+                name: 'Matt Pritchard',
+                organisation: 'STFC RAL Space / CEDA',
+                link: {
+                  href:
+                      'https://people.ncas.ac.uk/people/view/208',
+                  label: 'Home Page'
+                }
+              }
+            },
+            {
+              key: 'synopsis',
+              type: 'markdown',
+              props: {
+                source: `Where and how things are stored
+Interesting information about Elastic Tape and Near Line Archive
+There is also the JASMIN Data Migration App to get data via HTTP
+Here is the link [Presentation](https://drive.google.com/file/d/1957mdLoBzCgLeVj4FuYdSukFQwtWf6aW/view)`
+              }
             }
-        }, {
-            key: 'synopsis',
-            type: 'paragraph',
-            props: {
-                contents: 'Something'
-            }
-        }]
+          ]
     }],
     left: {
         visible: true,
